@@ -7,3 +7,9 @@ This is a text based fighting game based in assembly where the player wil go thr
 
 ## Shadows Game
 The shadows game is a c++ desgined game where the player has to avoid the light and stay in the shadows 
+
+## OpenGL  CubeField
+This game is designed using 3D Graphics where the player has to avoid the oncoming cubes to win the game if the player hits off of the oncoming cubes their health will be decremented
+
+## Tank Game
+In this game the player controls the tank and have to avoid being seen by the patrolling tank and if the enemy tank spots you inside of tehir vision cone they will then track you to kill you  
