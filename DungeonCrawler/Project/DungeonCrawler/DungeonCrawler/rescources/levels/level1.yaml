@@ -1,0 +1,51 @@
+
+background:
+   file: rescources/images/USED-IMAGES/roomOne.jpg # Sample comment
+
+cage:
+   file: rescources/images/USED-IMAGES/cage.png # Sample comment
+
+torches: 
+   - position: {x: 450, y: 120}
+     xScale: -1
+     yScale: -1
+   - position: {x: 540, y: 120}
+     xScale: 1
+     yScale: -1
+
+door:
+      position: {x: 470, y: 40}
+      size: {x: 50, y: 70}
+
+key: 
+    position: {x: 675, y: 520}
+    file: rescources/images/USED-IMAGES/key.png
+    size: {x: 2, y: 2}
+
+invisWalls: 
+   - position: {x: 0, y: 0}
+     size: {x: 1000, y: 10}
+   - position: {x: 850, y: 0}
+     size: {x: 10, y: 1000}
+   - position: {x: 100, y: 0}
+     size: {x: 10, y: 1000}
+   - position: {x: 0, y: 820}
+     size: {x: 1000, y: 10}
+
+sword: 
+    position: {x: 675, y: 520}
+    file: rescources/images/USED-IMAGES/blade3.png
+    size: {x: 2, y: 2}
+
+
+axe: 
+    position: {x: 850, y: 820}
+    file: rescources/images/USED-IMAGES/spritesheetAxe.png
+    size: {x: 0.2, y: 0.2}
+
+mazeWalls: 
+   - position: {x: 100000, y: 0}
+     size: {x: 1000, y: 10}
+   - position: {x: 100050, y: 0}
+     size: {x: 10, y: 1000}
+  

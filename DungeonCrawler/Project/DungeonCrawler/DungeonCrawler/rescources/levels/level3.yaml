@@ -1,0 +1,98 @@
+background:
+   file: rescources/images/USED-IMAGES/floor3.jpg # Sample comment
+
+cage:
+   file: rescources/images/USED-IMAGES/cage.png # Sample comment
+
+torches: 
+   - position: {x: 450, y: 120}
+     xScale: -1
+     yScale: -1
+   - position: {x: 550, y: 120}
+     xScale: 1
+     yScale: -1
+
+door:
+      position: {x: 450, y: 120}
+      size: {x: 50, y: 10}
+
+key: 
+    position: {x: 775, y: 620}
+    file: rescources/images/USED-IMAGES/key.png
+    size: {x: 2, y: 2}
+
+invisWalls: 
+   - position: {x: 0, y: -5}
+     size: {x: 950, y: 10}
+   - position: {x: 980, y: 0}
+     size: {x: 10, y: 1000}
+   - position: {x: 10, y: 0}
+     size: {x: 10, y: 950}
+   - position: {x: 0, y: 890}
+     size: {x: 1000, y: 10}
+
+
+sword: 
+    position: {x: 675, y: 520}
+    file: rescources/images/USED-IMAGES/blade3.png
+    size: {x: 2, y: 2}
+
+
+axe: 
+    position: {x: 675, y: 520}
+    file: rescources/images/USED-IMAGES/spritesheetAxe.png
+    size: {x: 0.2, y: 0.2}
+
+
+mazeWalls: 
+   - position: {x: 120, y: 500} #0
+     size: {x: 10, y: 200}
+   - position: {x: 44, y: 50} #1
+     size: {x: 265, y: 10}
+   - position: {x: 120, y: 830} #2
+     size: {x: 870, y: 10}
+   - position: {x: 290, y: 860} #3
+     size: {x: 10, y: -210}
+   - position: {x: 290, y: 230} #4
+     size: {x: 10, y: -210}
+   - position: {x: 290, y: 530} #5
+     size: {x: 10, y: -150}
+   - position: {x: 290, y: 520} #6
+     size: {x: 400, y: 10}
+   - position: {x: 290, y: 650} #7
+     size: {x: 240, y: 10}
+   - position: {x: 640, y: 650} #8
+     size: {x: 140, y: 10}
+   - position: {x: 940, y: 50} #9
+     size: {x: 10, y: 900}
+   - position: {x: 491, y: 165} #10
+     size: {x: 10, y: 355}
+   - position: {x: 290, y: 50} #11
+     size: {x: 520, y: 10}
+   - position: {x: 650, y: 50} #12
+     size: {x: 10, y: 125}
+   - position: {x: 680, y: 522} #13
+     size: {x: 10, y: 130}
+   - position: {x: 500, y: 165} #14
+     size: {x: 150, y: 10}
+   - position: {x: 645, y: 345} #15
+     size: {x: 180, y: 10}
+   - position: {x: 820, y: 190} #16
+     size: {x: 10, y: 165}
+   - position: {x: 820, y: 190} #17  
+     size: {x: 130, y: 10}
+   - position: {x: 820, y: 525} #18
+     size: {x: 130, y: 10}
+   - position: {x: 45, y: 45} #19
+     size: {x: 10,y: 455}
+   - position: {x: 45, y: 500} #20
+     size: {x: 80, y: 10}
+   - position: {x: 180, y: 380} #21
+     size: {x: 120, y: 10}
+   - position: {x: 170, y: 140} #22
+     size: {x: 10, y: 250}
+   - position: {x: 10, y: 700} #23
+     size: {x: 120, y: 10}
+   - position: {x: 120, y: 830} #24
+     size: {x: 10, y: 100}
+  
