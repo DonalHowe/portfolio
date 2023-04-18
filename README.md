@@ -1,4 +1,8 @@
 # My Portfolio projects
+
+## Thesis, A comparison between Dstar Lite against various guided and non-guided pathfinding algorithms
+Each of the chosen pathfinding algorithms were devloped in SFML using C++ as the coding language They were run on a 2D Grid of Cells/Node which all hold their own information the grid can change sizes ranging from a 10x10 grid to a 100x100 sized grid. The User is free to place down as many walls on the grid as they so wish,they can then run the algorithm which they choose on the grid.The algorithms available are Astar search algorithm, Dijkstras search algorithm, Dstar Lite search algorithm, Lifelong Planning Astar search algorithm, Jump Point search pathfinding algorithm and Depth first Search pathfinding algorithm. The User can then select whether they want to see the algorithm of their choice run against Dstar lite which is run on a seperate screen using the same start and endpoints which they choose. They also have the option to run Dstar Lite in debug mode which will show all of the variable changes which Dstar Lite causes on the grid.
+
 ## Not so Fantastic Mr Fox/ breadth first search game
 This game was designed around implementing the pathfinding algorithim breadth first search where the game runs the algorithim and the farmer follows along the most 
 suitable path , while the player playing as the fox must interact with all of the chickens before the farmer realises that they are gone.
